@@ -1,6 +1,7 @@
 .header {
   background-color: #333333;
   height: 80px;
+  margin-bottom: 30px
 }
 .button {
   height: 40px;
@@ -10,4 +11,32 @@
   color: white;
   font-size: 1.2em;
   margin: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.body-left {
+  order: 1;
+  padding: 20px;
+  margin-left: 30px;
+}
+h1 {
+  font-size: 50px;
+}
+.body-right {
+  order: 2;
+  padding: 20px;
+  margin-right: 30px;
+}
+.box-grey {
+  height: 350px;
+  width: 100%;
+  background-color: grey;
+
+}
+footer {
+  height:80px;
+  background-color: #333333;
+  margin-top: 60px;
 }
