@@ -1,0 +1,33 @@
+html,body{
+  height:100%;
+  background-color: #DDDDDD;
+  margin: 20px;
+}
+.header {
+  background-color: white;
+  padding: 15px;
+}
+p {
+  margin: 10px 15px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.button-red {
+  background-color: red;
+  height: 60px;
+  width: 120px;
+}
+.button-blue {
+  background-color: blue;
+  height: 60px;
+  width: 120px;
+}
+button {
+  border:;
+  font-size: 1.5em;
+  color: white;
+  margin: 10px 15px;
+}
