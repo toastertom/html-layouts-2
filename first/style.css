@@ -1,0 +1,35 @@
+
+
+.top-boxes {
+  height: 100px;
+  display:flex;
+}
+
+.small-box {
+display: flex;
+  height: 100%;
+  flex: 1;
+}
+.large-boxes {
+  display: flex;
+  height: 300px;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.grey {
+  background-color: grey;
+}
+.right {
+  background-color: blue;
+  flex: 2;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-top: 10px
+}
